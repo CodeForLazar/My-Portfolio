@@ -14,7 +14,7 @@ export const sendMail = async (formData: FormData) => {
    try {
       validateEmailForm(email, message);
       const data = await resend.emails.send({
-         from: `From Portfolio <${email}>`,
+         from: `Acme <onboarding@resend.dev>`,
          to: ['l.kiridzievski@gmail.com'],
          subject: 'Portfolio Contact',
          reply_to: email as string,
