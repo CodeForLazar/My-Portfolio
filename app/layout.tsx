@@ -15,6 +15,12 @@ const inter = Inter({
 export const metadata: Metadata = {
    title: 'Lazar Kiridjievski | Personal Portfolio',
    description: 'Personal portfolio page.',
+   openGraph: {
+      title: 'Lazar Kiridjievski | Personal Portfolio',
+      description: 'The React Framework for the Web',
+      type: 'profile',
+      images: {url: 'https://www.lakxon.com/thum.png'},
+   },
 };
 
 export default function RootLayout({children}: {children: React.ReactNode}) {
