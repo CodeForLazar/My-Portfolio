@@ -18,7 +18,7 @@ export const metadata: Metadata = {
    openGraph: {
       title: 'Lazar Kiridjievski | Personal Portfolio',
       description: 'The React Framework for the Web',
-      type: 'profile',
+      type: 'website',
       images: {url: 'https://www.lakxon.com/thum.png'},
    },
 };
