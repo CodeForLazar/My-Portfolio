@@ -2,7 +2,7 @@ import {createElement} from 'react';
 import {CgWorkAlt} from 'react-icons/cg';
 import {FaReact} from 'react-icons/fa';
 import {LuGraduationCap} from 'react-icons/lu';
-import corpcommentImg from '@/public/corpcomment.png';
+import chatBot from '@/public/chatBot.png';
 import rmtdevImg from '@/public/rmtdev.png';
 import wordanalyticsImg from '@/public/wordanalytics.png';
 
@@ -63,11 +63,12 @@ export const experiencesData = [
 
 export const projectsData = [
    {
-      title: 'Coming Soon...',
+      title: 'ChatBot',
       description:
-         'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis sequi cupiditate maiores aliquam non, omnis ducimus nihil nesciunt molestias praesentium.',
-      tags: ['React', 'Next.js', 'MongoDB', 'Tailwind', 'Prisma'],
-      imageUrl: corpcommentImg,
+         'OpenAi chatbot that offers customer support into websites and provides a personalized and interactive communication channel.',
+      tags: ['React', 'Next.js', 'Tailwind', 'TypeScript', 'Zod'],
+      imageUrl: chatBot,
+      link: 'https://chat-bot-bookworm.vercel.app',
    },
    {
       title: 'Coming Soon...',
@@ -75,6 +76,7 @@ export const projectsData = [
          'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis sequi cupiditate maiores aliquam non, omnis ducimus nihil nesciunt molestias.',
       tags: ['React', 'TypeScript', 'Next.js', 'Tailwind', 'Redux'],
       imageUrl: rmtdevImg,
+      link: '',
    },
    {
       title: 'Coming Soon... Analytics',
@@ -82,6 +84,7 @@ export const projectsData = [
          'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis sequi cupiditate maiores aliquam non, omnis ducimus nihil nesciunt.',
       tags: ['React', 'Next.js', 'SQL', 'Tailwind', 'Framer'],
       imageUrl: wordanalyticsImg,
+      link: '',
    },
 ] as const;
 
