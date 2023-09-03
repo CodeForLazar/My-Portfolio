@@ -36,12 +36,12 @@ export type SectionName = (typeof links)[number]['name'];
 
 export const experiencesData = [
    {
-      title: 'Sales & Business development',
-      location: 'Evgeni - Skopje',
+      title: 'full-stack Developer',
+      location: 'Sourcico - Skopje/Tel Aviv',
       description:
-         'Represent companies and promote their varieties on a national level, Implementing effective marketing strategies, Increase sales and grow the customer base. ',
-      icon: createElement(CgWorkAlt),
-      date: '2016 - 2022',
+         'I am currently working for Perion a  technology company that provides digital advertising products and services.',
+      icon: createElement(FaReact),
+      date: '2022 - Present',
    },
    {
       title: 'Graduated Academy',
@@ -52,12 +52,12 @@ export const experiencesData = [
       date: '2021 - 2022',
    },
    {
-      title: 'full-stack Developer',
-      location: 'Sourcico - Skopje/Tel Aviv',
+      title: 'Sales & Business development',
+      location: 'Evgeni - Skopje',
       description:
-         'I am currently working for Perion a  technology company that provides digital advertising products and services.',
-      icon: createElement(FaReact),
-      date: '2022 - Present',
+         'Represent companies and promote their varieties on a national level, Implementing effective marketing strategies, Increase sales and grow the customer base. ',
+      icon: createElement(CgWorkAlt),
+      date: '2016 - 2022',
    },
 ] as const;
 
