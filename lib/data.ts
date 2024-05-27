@@ -37,7 +37,7 @@ export type SectionName = (typeof links)[number]['name'];
 export const experiencesData = [
    {
       title: 'full-stack Developer',
-      location: 'Sourcico - Skopje/Tel Aviv',
+      location: 'Undertone (via Sourcico) - Skopje',
       description:
          'I am currently working for Perion a  technology company that provides digital advertising products and services.',
       icon: createElement(FaReact),
@@ -70,22 +70,22 @@ export const projectsData = [
       imageUrl: chatBot,
       link: 'https://chat-bot-bookworm.vercel.app',
    },
-   {
-      title: 'Coming Soon...',
-      description:
-         'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis sequi cupiditate maiores aliquam non, omnis ducimus nihil nesciunt molestias.',
-      tags: ['React', 'TypeScript', 'Next.js', 'Tailwind', 'Redux'],
-      imageUrl: rmtdevImg,
-      link: '',
-   },
-   {
-      title: 'Coming Soon... Analytics',
-      description:
-         'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis sequi cupiditate maiores aliquam non, omnis ducimus nihil nesciunt.',
-      tags: ['React', 'Next.js', 'SQL', 'Tailwind', 'Framer'],
-      imageUrl: wordanalyticsImg,
-      link: '',
-   },
+   // {
+   //    title: 'Coming Soon...',
+   //    description:
+   //       'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis sequi cupiditate maiores aliquam non, omnis ducimus nihil nesciunt molestias.',
+   //    tags: ['React', 'TypeScript', 'Next.js', 'Tailwind', 'Redux'],
+   //    imageUrl: rmtdevImg,
+   //    link: '',
+   // },
+   // {
+   //    title: 'Coming Soon... Analytics',
+   //    description:
+   //       'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis sequi cupiditate maiores aliquam non, omnis ducimus nihil nesciunt.',
+   //    tags: ['React', 'Next.js', 'SQL', 'Tailwind', 'Framer'],
+   //    imageUrl: wordanalyticsImg,
+   //    link: '',
+   // },
 ] as const;
 
 export const skillsData = [
@@ -102,7 +102,6 @@ export const skillsData = [
    'PostgreSQL',
    'MySQL',
    'MongoDB',
-   'Prisma',
    'Sequelize',
    'Mongoose',
    'Redux',

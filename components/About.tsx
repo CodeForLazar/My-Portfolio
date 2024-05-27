@@ -16,16 +16,19 @@ const About = () => {
       >
          <SectionHeading>About me</SectionHeading>
          <p className='mb-3'>
-            After graduating with a degree in{' '}
-            <span className='font-medium'>Crop-Science</span>, and working in
-            sales and business development. I decided to pursue my passion for
-            programming. I enrolled in a coding academy and learned{' '}
-            <span className='font-medium'>full-stack web development</span>.{' '}
-            <i>My favorite part of programming</i> is the problem-solving
-            aspect. I <span className='underline'>love</span> the feeling of
-            finally figuring out a solution to a problem. I'm driven by the
-            phrase <span className='font-medium'>“Less is more”</span>. and I
-            strive to engineer my apps and write my code in that manner.
+            As a passionate{' '}
+            <span className='font-medium'>Full-Stack Developer</span> with a
+            focus on <span className='underline'>front-end</span>{' '}
+            development, I bring a unique{' '}
+            <i>blend of creativity and technical expertise</i> to every project.
+            I'm driven by the phrase{' '}
+            <span className='font-medium'>“Less is more”</span>. and I strive to
+            engineer my apps and write my code in that manner. I'm driven by a
+            commitment to continuous learning and staying current with the
+            latest industry trends and best practices. Whether I'm collaborating
+            with a team or working independently, I aim to create{' '}
+            <span className='underline'>high-quality</span>, scalable solutions
+            that meet both user and business needs.
          </p>
       </motion.section>
    );
