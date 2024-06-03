@@ -41,7 +41,7 @@ export const experiencesData = [
       description:
          'I am currently working for Perion a  technology company that provides digital advertising products and services.',
       icon: createElement(FaReact),
-      date: '2022 - Present',
+      date: '2021 - Present',
    },
    {
       title: 'Graduated Academy',
@@ -49,7 +49,7 @@ export const experiencesData = [
       description:
          'I graduated after 9 months of studying. I immediately found a job as a full-stack developer.',
       icon: createElement(LuGraduationCap),
-      date: '2021 - 2022',
+      date: '2020 - 2021',
    },
    {
       title: 'Sales & Business development',
@@ -57,7 +57,7 @@ export const experiencesData = [
       description:
          'Represent companies and promote their varieties on a national level, Implementing effective marketing strategies, Increase sales and grow the customer base. ',
       icon: createElement(CgWorkAlt),
-      date: '2016 - 2022',
+      date: '2016 - 2021',
    },
 ] as const;
 
