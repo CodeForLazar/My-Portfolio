@@ -36,12 +36,20 @@ export type SectionName = (typeof links)[number]['name'];
 
 export const experiencesData = [
    {
-      title: 'full-stack Developer',
-      location: 'Undertone (via Sourcico) - Skopje',
+      title: 'Front-end Developer',
+      location: 'Enterprise League - Skopje',
       description:
-         'I am currently working for Perion a  technology company that provides digital advertising products and services.',
+         'I am currently working for Enterprise League a startup company that provides a B2B platform.',
       icon: createElement(FaReact),
-      date: '2021 - Present',
+      date: '2024 - Present',
+   },
+   {
+      title: 'full-stack Developer',
+      location: 'Undertone (for Perion) - Tel Aviv',
+      description:
+         'Worked for Perion a  technology company that provides digital advertising products and services.',
+      icon: createElement(FaReact),
+      date: '2021 - 2024',
    },
    {
       title: 'Graduated Academy',

@@ -2,7 +2,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import {motion} from 'framer-motion';
-import CVPic from '@/public/CVPic.jpg';
+import CVPic from '@/public/CVPic.jpeg';
 import {BsArrowRight, BsLinkedin} from 'react-icons/bs';
 import {HiDownload} from 'react-icons/hi';
 import {FaGithubSquare} from 'react-icons/fa';
@@ -42,7 +42,7 @@ const Intro = () => {
                      priority
                      width={100}
                      height={100}
-                     className='h-24 w-24 rounded-full border-[0.35rem] border-white object-cover shadow-xl'
+                     className='h-24 w-24 rounded-full border-[0.35rem] border-white object-cover object-[50%_-10px] shadow-xl'
                   />
                </motion.div>
                <motion.span
