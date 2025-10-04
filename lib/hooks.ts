@@ -11,7 +11,7 @@ export const useSectionInView = (
       threshold,
    });
    const {setActiveSection, lastClick} = useActiveSectionContext();
-
+   // test commit
    useEffect(() => {
       if (inView && Date.now() - lastClick > 1000) {
          setActiveSection(sectionName);
