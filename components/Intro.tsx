@@ -67,10 +67,12 @@ const Intro = () => {
             animate={{opacity: 1, y: 0}}
          >
             <strong>Hi, I'm Lazar.</strong> I'm a{' '}
-            <strong>full-stack developer</strong> with an{' '}
-            <strong>affinity</strong> for programming. I enjoy building{' '}
-            <i className='italic'>sites & apps</i>. My focus is{' '}
-            <span className='underline'>React (Next.js)</span>.
+            <strong>Full-Stack Developer</strong> passionate about building
+            modern web applications. I enjoy creating{' '}
+            <i className='italic'>fast, scalable sites & apps</i>. My focus is{' '}
+            <span className='underline'>
+               React, TypeScript, Node.js, microservices, and API development
+            </span>
          </motion.h1>
 
          <motion.div

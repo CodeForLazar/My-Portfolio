@@ -1,9 +1,7 @@
 import {createElement} from 'react';
-import {CgWorkAlt} from 'react-icons/cg';
+import {FaNodeJs} from 'react-icons/fa';
 import {FaReact} from 'react-icons/fa';
 import chatBot from '@/public/chatBot.png';
-import rmtdevImg from '@/public/rmtdev.png';
-import wordanalyticsImg from '@/public/wordanalytics.png';
 
 export const links = [
    {
@@ -36,17 +34,17 @@ export type SectionName = (typeof links)[number]['name'];
 export const experiencesData = [
    {
       title: 'Full-stack Developer',
-      location: 'Identry - Netherlands',
+      location: 'Semansys Technologies - Netherlands',
       description:
-         'Developing an advanced Self-Sovereign Identity (SSI) solution powered by blockchain technology.',
-      icon: createElement(FaReact),
+         'Developing an advanced Self-Sovereign Identity (SSI) abd OpenID solution powered by blockchain technology.',
+      icon: createElement(FaNodeJs),
       date: '2025 - Present',
    },
    {
       title: 'Front-end Developer',
       location: 'Dalmoregroup - USA',
       description:
-         'Develop a fintech client-side application for a stock investment platform.',
+         'Owned the frontend architecture and implementation for a production fintech platform.',
       icon: createElement(FaReact),
       date: '2024 - 2025',
    },
@@ -54,7 +52,7 @@ export const experiencesData = [
       title: 'Front-end Developer',
       location: 'Enterprise League - Skopje',
       description:
-         'Worked for Enterprise League a startup company that provides a B2B platform.',
+         'Enhance and optimize SEO performance, write clean, modular, and reusable code following best practices',
       icon: createElement(FaReact),
       date: '2023 - 2024',
    },
@@ -62,8 +60,8 @@ export const experiencesData = [
       title: 'full-stack Developer',
       location: 'Undertone (for Perion) - Tel Aviv',
       description:
-         'Worked for Perion a technology company that provides digital advertising products and services.',
-      icon: createElement(FaReact),
+         'Developed and Maintained Enterprise Web Applications: Worked on several large-scale projects, ensuring high performance and reliability.',
+      icon: createElement(FaNodeJs),
       date: '2021 - 2023',
    },
 ] as const;
@@ -77,29 +75,13 @@ export const projectsData = [
       imageUrl: chatBot,
       link: 'https://chat-bot-bookworm.vercel.app',
    },
-   // {
-   //    title: 'Coming Soon...',
-   //    description:
-   //       'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis sequi cupiditate maiores aliquam non, omnis ducimus nihil nesciunt molestias.',
-   //    tags: ['React', 'TypeScript', 'Next.js', 'Tailwind', 'Redux'],
-   //    imageUrl: rmtdevImg,
-   //    link: '',
-   // },
-   // {
-   //    title: 'Coming Soon... Analytics',
-   //    description:
-   //       'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis sequi cupiditate maiores aliquam non, omnis ducimus nihil nesciunt.',
-   //    tags: ['React', 'Next.js', 'SQL', 'Tailwind', 'Framer'],
-   //    imageUrl: wordanalyticsImg,
-   //    link: '',
-   // },
 ] as const;
 
 export const skillsData = [
    'HTML',
    'CSS',
    'SASS',
-   'Tailwind',
+   'TailwindCSS',
    'JavaScript',
    'TypeScript',
    'React',
@@ -109,12 +91,8 @@ export const skillsData = [
    'PostgreSQL',
    'MySQL',
    'MongoDB',
-   'Sequelize',
-   'Mongoose',
    'Redux',
-   'Framer Motion',
-   'TanStack Table',
-   'TanStack Query',
-   'Moment.js',
-   'Date-fns.js',
+   'TanStack Tech',
+   'Micro-services',
+   'AWS',
 ] as const;

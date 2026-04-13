@@ -18,17 +18,16 @@ const About = () => {
          <p className='mb-3'>
             As a passionate{' '}
             <span className='font-medium'>Full-Stack Developer</span> with a
-            focus on <span className='underline'>front-end</span>{' '}
+            strong focus on <span className='underline'>front-end</span>{' '}
             development, I bring a unique{' '}
             <i>blend of creativity and technical expertise</i> to every project.
-            I'm driven by the phrase{' '}
-            <span className='font-medium'>“Less is more”</span>. and I strive to
-            engineer my apps and write my code in that manner. I'm driven by a
-            commitment to continuous learning and staying current with the
-            latest industry trends and best practices. Whether I'm collaborating
-            with a team or working independently, I aim to create{' '}
-            <span className='underline'>high-quality</span>, scalable solutions
-            that meet both user and business needs.
+            I specialize in building scalable microservices and secure backend
+            systems using Node.js, TypeScript, and Express, while crafting
+            intuitive, high-performance user interfaces with React. Driven by
+            the phrase <span className='font-medium'>“Less is more”</span>, I
+            strive to write clean, efficient, and maintainable code. My goal is
+            to deliver <span className='underline'>high-quality</span>, scalable
+            solutions that meet both user and business needs.
          </p>
       </motion.section>
    );
