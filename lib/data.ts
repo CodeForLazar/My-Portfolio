@@ -36,7 +36,7 @@ export const experiencesData = [
       title: 'Full-stack Developer',
       location: 'Semansys Technologies - Netherlands',
       description:
-         'Developing an advanced Self-Sovereign Identity (SSI) abd OpenID solution powered by blockchain technology.',
+         'Developing an advanced Self-Sovereign Identity (SSI) and OpenID solution powered by blockchain technology.',
       icon: createElement(FaNodeJs),
       date: '2025 - Present',
    },
