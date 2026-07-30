@@ -10,7 +10,7 @@ const Projects = () => {
 
    return (
       <section id='projects' ref={ref} className='mb-28 scroll-my-28'>
-         <SectionHeading>My projects</SectionHeading>
+         <SectionHeading>Project Contributions</SectionHeading>
          <div>
             {projectsData.map((project, idx) => (
                <Fragment key={idx}>
